@@ -1,0 +1,2 @@
+<!--index.wxml-->
+<button type="primary" plain="true" bindtap='choseModule'>无课表</button>

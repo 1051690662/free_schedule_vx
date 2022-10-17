@@ -1,0 +1,12 @@
+<!--pages/free_schedule/moduleChose.wxml-->
+
+<view class="buttonStyle">
+    <view class="page-section-title">我是学生，需要录入我的课表信息</view>
+<button  class="buttonStyle" style="width:60vw;height:20vw;margin-block-end:80rpx;" type="primary"  bindtap='inputSchedule'>录入</button>
+<view class="page-section-title">我是制作者，需要制作无课表</view>
+<button  class="buttonStyle" style="width:60vw;height: 20vw;" type="primary"  bindtap='makeSchedule'>制作</button>
+</view>
+<view class="page-section-title;bottom">心动比特</view>
+
+
+

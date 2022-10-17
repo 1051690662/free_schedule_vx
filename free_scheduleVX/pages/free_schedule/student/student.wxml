@@ -1,0 +1,23 @@
+<!--student.wxml-->
+
+<text>\n</text>
+<view class="center">
+<text decode="true">&ensp;学号:</text>
+<input class="weui-input" confirm-type="next" type="number" placeholder="请在此输入seig学生信息管理系统的账号（学号）" bindinput="getAccount" />
+<text>\n</text>
+<text decode="true">&ensp;密码:</text>
+<input class="weui-input" confirm-type="next" password type="text" placeholder="请在此输入seig学生信息管理系统的密码"  bindinput="getPassword"/>
+<text>\n</text>
+<text decode="true">&ensp;班级/组织码:</text>
+<input class="weui-input" type="text" confirm-type="go" placeholder="请在此输入制作者提供给你的“班级/组织码”" bindinput="getCode" />
+<text>\n</text>
+<button type="primary" bindtap='login'>录入我的无课表</button>
+
+<view>\n</view>
+<text class="page-section-title">
+*账号密码仅用于登录seig信息管理系统获取你的课表数据，该程序不会保存你的密码
+*点击登录后请等待弹窗返回结果
+*若在使用中发现任何问题或建议，请微信联系:"www_xn_com"
+</text>
+</view>
+<view class="page-section-title;bottom">心动比特</view>

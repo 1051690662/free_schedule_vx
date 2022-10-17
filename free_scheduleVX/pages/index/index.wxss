@@ -1,0 +1,6 @@
+/**index.wxss**/
+
+input{
+    border: 1px solid gainsboro;
+    margin: 15px;
+}

@@ -1,0 +1,18 @@
+{
+    "pages": [
+        "pages/free_schedule/moduleChose/moduleChose",
+        "pages/free_schedule/student/student",
+        "pages/free_schedule/admin/admin",
+        "pages/index/index"
+    ],
+
+        "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "lazyCodeLoading": "requiredComponents"
+}

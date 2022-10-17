@@ -1,0 +1,44 @@
+/* pages/free_schedule/admin.wxss */
+textarea {
+    width: 700rpx;
+    padding: 40rpx 0;
+  }
+  input{
+    padding: 0 20rpx;
+    background-color:rgb(240, 240, 240) ;
+}
+.page-section-title{
+    font-size: 28rpx;
+    color: #999999;
+    margin-bottom: 10rpx;
+    padding-right: 40rpx;
+    padding-right: 40rpx;
+  }
+  .page-section{
+    width: 100%;
+    margin-bottom: 60rpx;
+  }
+  .textarea-wrp {
+    padding: 0 20rpx;
+    background-color:rgb(240, 240, 240) ;
+  }
+  .buttons{
+    height: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+  }
+  .bottom{
+    display: flex;    
+    align-items: center;    
+    vertical-align: center; 
+    justify-content: center; 
+    flex-direction:row; 
+    font-size: 28rpx;
+    bottom: 40rpx;
+    color: #999999;
+   }
+  
+  
+  

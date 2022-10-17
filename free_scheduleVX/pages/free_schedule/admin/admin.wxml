@@ -1,0 +1,46 @@
+<!--pages/free_schedule/admin.wxml-->
+
+<text>\n</text>
+
+<text decode="true">&ensp;班级/组织码：{{result.file_code}}</text>
+<view style="white-space:pre-wrap;">\n</view>
+<text decode="true">&ensp;已录入人数：{{result.done_number}}</text>
+
+<view class="buttons">
+    <button  plain="False" class="buttons"  type="primary" style="margin-right: 20rpx;margin-top: 30rpx;height: 165rpx;" bindtap="delectAndCreat"> 删除该无课表并创建新的无课表 </button>
+<button class="buttons"  type="primary" bindtap="downloadFile" style="margin-top: 30rpx;height: 165rpx;"  > 下载该无课表 </button>
+</view>
+<text>\n</text>
+<view class="page-body">
+    <view class="page-section">
+        <text decode="true" >&ensp;限制人员名单:</text>
+    <view class="textarea-wrp">
+        <form bindsubmit="bindFormSubmit">
+      <textarea maxlength="-1" name="textarea" placeholder="在此填入需要录入无课表的同学名字，点击下方的“提交修改”后，只有同时填写了你提供的班级/组织码和在该名单内的同学才会录入你的无课表，并且会在下方显示未完成人员。如果不想要使用此功能不需理会即可。若使用后想关闭此功能，清空本文本框，再次提交空文本框即可。(显示本文本即代表文本框空)"  style="height: 9em;margin-top: 10rpx;" />
+      <button form-type="submit" type="primary"  > 提交修改 </button>
+     </form>
+    </view>
+    </view>
+  <view class="page-section">
+    <text decode="true">&ensp;未完成人员名单:</text>
+    <view class="textarea-wrp">
+        <textarea disabled="true" value="{{result.undone_member}}" placeholder="目前还未设置限制名单或已全部完成" auto-height="true" style="height: 3em;margin-top: 10rpx;" />
+    </view>
+</view>
+</view>
+<text class="page-section-title"decode="true">&ensp;无课表制作使用说明：
+    &ensp;*将该页面的“班级/组织码”告诉你需要收集课表的学生
+    &ensp;*学生在上一页面点击“录入”后，输入seig学生信息管理系统的账号密码，在相应栏填写你提供的“班级/组织码”，
+    &ensp;点击提交后，该生录入你的无课表
+    &ensp;*打开excel，全选中后，在“开始”菜单下点击“自动换行”
+</text>
+<text>\n</text>
+<text class="page-section-title"decode="true">&ensp;生成的无课表说明：
+    &ensp;*仅有名字，表示该生在该时间内的1~18周均无课
+    &ensp;*有名字，且后面带有数字，表示该生在该时间所含数字周无课
+    &ensp;*没有名字，代表该生在该时间内的1~18周均有课
+    \n
+</text>
+<view class="bottom">心动比特</view>
+<text>\n</text>
+

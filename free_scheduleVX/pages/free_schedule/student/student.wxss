@@ -1,0 +1,29 @@
+/**student.wxss**/
+
+input{
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  border-bottom: 1px solid green;
+  margin-top: 20px;
+}
+.center{
+    height: 61.8vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.page-section-title{
+    font-size: 28rpx;
+    color: #999999;
+    margin-bottom: 10rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+  }
+  .bottom{
+    position: absolute;
+     bottom: 20rpx;
+     width: 93%;
+     display: flex;
+     justify-content: center;
+   }

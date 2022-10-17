@@ -1,0 +1,23 @@
+/* pages/free_schedule/moduleChose.wxss */
+.buttonStyle{
+    height: 61.8vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+}
+.bottom{
+ position: absolute;
+  bottom: 20rpx;
+  width: 93%;
+  display: flex;
+  justify-content: center;
+}
+.page-section-title{
+    font-size: 28rpx;
+    color: #999999;
+    margin-bottom: 10rpx;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+  }
